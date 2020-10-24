@@ -2,18 +2,15 @@
   "name": "leccion1",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LEON-1979/Practica1.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LEON-1979/Practica1/issues"
-  },
-  "homepage": "https://github.com/LEON-1979/Practica1#readme"
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
